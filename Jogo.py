@@ -101,3 +101,4 @@ def game():
         pygame.display.update()
         clock.tick(60)  # faz com que o while execute 60x por segundo
 game()
+####Mas Que Barbaridade####
