@@ -4,6 +4,10 @@ import random
 pygame.init()
 largura = 900
 altura = 700
+nomeJogador = str(input("Insira o seu nome: "))
+emailJogador = str(input("Insira o seu email: "))
+arquivo = open("historico.txt", "a")
+arquivo.write("Participante: " + nomeJogador + " email: " + emailJogador + "\n")
 configTela = (largura, altura)
 gameDisplay = pygame.display.set_mode(configTela)
 clock = pygame.time.Clock()
